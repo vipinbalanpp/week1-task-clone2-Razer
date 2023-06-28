@@ -1,0 +1,957 @@
+
+@font-face {
+    font-family: rizer;
+    src: url("./font/razerf5-reg.otf");
+}
+body{
+    background-color: #222;
+}
+* {
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box; 
+}
+body{
+    position: relative;
+}
+/* HEADER */
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    border-bottom:1px solid #44d62c;
+   
+}
+.logo{
+    width: 100px;
+    height: 59px;
+    background-color: transparent;
+    position: relative;
+    margin-left: 154px;
+   
+}.logo img{
+    width: 44px;
+    height: 47px;
+    margin-top: 8px;  
+}
+.nav{
+    width: 965px;
+    height: 34px;
+    position: absolute;
+    background-color: transparent;
+    top: 0px;
+    margin-left: 198px;
+    margin-top: 20px; 
+}
+.contrl{
+    float: left;
+    padding-left: 68px;
+    list-style: none;
+    cursor: pointer;
+    color: #999;
+    font-family: rizer;
+    font-size: 16px;
+    font-weight: 300px;
+}
+.search{
+    position: absolute;
+    width: 40px;
+    height: 32px;
+    top: 21px;
+    background-color: transparent;
+    margin-left: 1204px;
+    margin-top: 21px;
+    top: 0px;
+    color: #999;
+}
+.cart{
+    position: absolute;
+    width: 40px;
+    height: 32px;
+    top: 21px;
+    background-color: transparent;
+    margin-left: 1308px; 
+    margin-top: 21px;
+    top: 0px;
+    color: #999;
+}
+.contrl:hover{
+    color: white;
+    cursor: pointer;
+}
+.search:hover{
+    color: white;
+    cursor: pointer;
+}
+.cart:hover{
+    color: white;
+    cursor: pointer;
+}.ins{
+    position: relative;
+    width: 100%;
+    height: 43px;
+    background-color: #555;
+}
+.ins p{
+    color: #eee;
+    text-align: center;
+    padding: 13px;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    margin-left: -8px;
+    line-height: 20px;
+    letter-spacing: -.01px;
+}
+/* ROOT 1 */
+.first{
+    width: 100%;
+    height: 694px;
+    position: relative;
+    background-color:black;
+    cursor: pointer;
+}
+.first img{
+    width: 96%;
+    height: 614px;
+    margin-top: 81px;
+    margin-left: 48px;    
+}
+.firstxt{
+    width: 327px;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    margin-left: 421px;
+    margin-top: -740px;   
+}
+#razer{
+    width: 572px;
+    height: 127px;
+}
+.learn{
+    width: 128px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 655px;
+    margin-top: 172px;
+}
+.learn h3{
+    color: white;
+    font-family: rizer;
+    font-size: 20px;
+    font-weight: 300; 
+}
+.learn h3:hover{
+text-decoration: underline;
+}
+.buy{
+    width: 31px;
+    height: 19px;
+    background-color:transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 810px;
+    margin-top: 172px;  
+}
+.buy h3{
+    color: white;
+    font-family: rizer;
+    font-size: 20px;
+    font-weight: 300;
+}
+.buy h3:hover{
+text-decoration: underline;
+}
+.aro{
+    width: 128px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 844px;
+    margin-top: 173px;
+    color:#44d62c;
+    font-weight: 300;
+}
+.aro span{
+    color:#44d62c;
+    font-weight: 300;
+}
+.aro2{
+    width: 128px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 758px;
+    margin-top: 173px
+}
+.aro2 span{
+    color:#44d62c;
+    font-weight: 300;
+}
+
+ .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+} 
+ .p2{
+    width: 100%;
+ position: relative;
+  margin-top:  10PX;
+    background: url(icon/f2.2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+} 
+.p2:hover{
+    cursor: pointer;
+}
+.text2{
+    color: white;
+    margin-left: 221px;
+    margin-top: 61px;
+    position: absolute;
+    width: 1079px;
+    height: 350px;
+    text-align: center;
+}
+.text2 h1{
+    font-size: 56px;
+    font-family: rizer;
+}
+.text2 p{
+    font-size: 27px;
+    padding-top: 12px;
+    font-family: rizer;
+}
+.learn1{
+    width: 180px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 347px;
+    margin-top: 107px;
+    font-family: rizer;
+    font-weight: 100px;   
+}
+.learn1:hover{
+    text-decoration: underline;
+}
+.buy1{
+    width: 240px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 503px;
+    margin-top: 107px;
+    font-family: rizer; 
+}
+.buy1:hover{
+    text-decoration: underline;
+}
+.learn1 p,.buy1 p{
+    font-size: 20px;
+}
+.arro1{
+    width: 128px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 447px;
+    margin-top: 119px;
+    color: #44d62c;
+    font-weight: 300;
+}
+.arro2{
+    width: 128px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 633px;
+    margin-top: 119px;
+    color: #44d62c;
+    font-weight: 300;
+}
+.p3{
+    width: 100%;
+    position: relative;
+    margin-top:  10px;
+    background: url(icon/p3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    cursor: pointer;
+}
+.learn2{
+    width: 180px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 401px;
+    margin-top: 104px;
+    font-family: rizer;
+    font-weight: 100px;  
+}
+.learn2:hover{
+    text-decoration: underline;
+}
+.buy2{
+    width: 240px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 489px;
+    margin-top: 104px;
+    font-family: rizer;
+}
+.buy2:hover{
+    text-decoration: underline;
+}
+.learn2 p,.buy2 p{
+    font-size: 20px;
+}
+.arro3{
+    width: 128px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 485px;
+    margin-top: 116px;
+    color: #44d62c;
+    font-weight: 300;
+}
+.arro4{
+    width: 128px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 571px;
+    margin-top: 116px;
+    color: #44D62B;
+    font-weight: 300;
+}
+/* ROOT2 */
+.container2{
+  margin-top: 10px;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    height: 580px; 
+}
+.item1 {
+    width: 49.7%;
+    height: 100%;
+    overflow: hidden;
+   }
+.item1 img {
+    width: 110%;
+    height: 100%;
+    cursor:pointer;
+}
+/* PART 1 */
+.tex{
+    position: absolute;
+    margin-left: 174px;
+    margin-top: -549px;
+    text-align: center;
+}
+.tex h1{
+   
+    margin-left: 11px;  font-family: rizer;
+    color: white;
+    font-size: 38px;
+    margin-top: 10px;
+    margin-left: -16px;
+}
+.tex p{
+    font-family: rizer;
+    color: white;
+    font-size: 21px;
+    margin-top: 10px;
+    margin-left: -4px;
+}
+.lrn{
+    width: 157px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 120px;
+    margin-top: 94px;
+    font-family: rizer;
+    font-weight: 100px;   
+}
+.lrn p:hover{
+    text-decoration: underline white;
+}
+.lrn p{
+    font-size: 17px;
+}
+.arro{
+    width: 128px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 182px;
+    margin-top: 103px;
+    color: #44d62c;
+    font-weight: 300;
+}
+/* PART 2 */
+.tex2{
+    position: absolute;
+    margin-left: 174px;
+    margin-top: -549px;
+    text-align: center;
+}
+.tex2 p{
+    font-family: rizer;
+    color: white;
+    font-size: 21px;
+    margin-top: 10px;
+    margin-left: -4px;
+}
+.tex2 h1{
+    font-family: rizer;
+    color: white;
+    font-size: 38px;
+    margin-top: 10px;
+    margin-left: 11px;  font-family: rizer;
+    color: white;
+    font-size: 38px;
+    margin-top: 10px;
+    margin-left: -16px;
+}
+.lrn2{
+    width: 157px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 120px;
+    margin-top: 94px;
+    font-family: rizer;
+    font-weight: 100px;  
+}
+.lrn2 p:hover{
+    text-decoration: underline white;
+}
+.lrn2 p{
+    font-size: 17px;
+}
+.ar2{
+    width: 128px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 182px;
+    margin-top: 103px;
+    color: #44d62c;
+    font-weight: 300;
+}
+/* PART 3 */
+.texp3{
+    position: absolute;
+    margin-left: 174px;
+    margin-top: -549px;
+    text-align: center;
+}
+.texp3 p{
+    font-family: rizer;
+    color: white;
+    font-size: 21px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.texp3 h1{
+    color: white;
+    font-size: 40px;
+    margin-top: 24px;
+    margin-left: 16px;
+    font-family: rizer;
+}
+.lrnp3{
+    width: 158px;
+    height: 29px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 69px;
+    margin-top: 110px;
+    font-family: rizer;
+    font-weight: 100px;   
+}
+.lrnp3 p:hover{
+    text-decoration: underline white;
+}
+.lrnp3 p,.buyp3 p{
+    font-size: 16px;
+}
+.arp3{
+    width: 128px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 141px;
+    margin-top: 119px;
+    color: #44d62c;
+    font-weight: 300;
+}
+.buyp3{
+    width: 240px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 130px;
+    margin-top: 111px;
+    font-family: rizer;
+}
+.buyp3 p:hover{
+    text-decoration: underline white;
+}
+.arp32{
+    width: 128px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 215px;
+    margin-top: 119px;
+    color: #44D62A;
+    font-weight: 300;
+}
+/* PART 4 */
+.logh{
+    width: 104px;
+    height: 39px;
+    background-color: #ff9c07;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 3px;
+    padding: 6px 16px;
+    text-align: start;
+    font-family:Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji ; 
+}
+.logh h3{
+    font-size: 9.5px;
+    font-weight: 750;
+}
+.logh h2{
+    font-size: 14px;
+    margin-top: 2px;
+    font-weight: 750;
+}
+.texp4{
+    position: absolute;
+    margin-left: 174px;
+    margin-top: -549px;
+    text-align: center;
+}
+.texp4 p{
+    font-family: rizer;
+    color: white;
+    font-size: 21px;
+    margin-top: 6px;
+    margin-left: 36px;
+}
+.texp4 h1{
+    
+    color: white;
+    font-size: 40px;
+    margin-top: 52px;
+    margin-left: 32px;
+    font-family: rizer;
+}
+.lrnp4{
+    width: 157px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 52px;
+    margin-top: 140px;
+    font-family: rizer;
+    font-weight: 100px;  
+}
+.lrnp4 p:hover{
+    text-decoration: underline white;
+}
+.lrnp4 p,.buyp4 p{
+    font-size: 17px;
+}
+.arp4{
+    width: 128px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 134px;
+    margin-top: 145px;
+    color: #44d62c;
+    font-weight: 300;
+}
+.buyp4{
+    width: 240px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 126px;
+    margin-top: 141px;
+    font-family: rizer;
+}
+.buyp4 p:hover{
+    text-decoration: underline white;
+}
+.arp42{
+    width: 124px;
+    height: 26px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 224px;
+    margin-top: 146px;
+    color: #44D62A;
+    font-weight: 300;
+}
+/* PART 5 */
+.logh5{
+    width: 101px;
+    height: 39px;
+    background-color: #ff9c07;
+    position: absolute;
+    margin-left: 147px;
+    margin-top: -14px;
+    padding: 6px 16px;
+    text-align: start;
+    font-family:Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji ;
+}
+.logh5 h3{
+    font-size: 9.5px;
+    font-weight: 750;
+}
+.logh5 h2{
+    font-size: 14px;
+    margin-top: 2px;
+    font-weight: 750;
+}
+.texp5{
+    position: absolute;
+    margin-left: 174px;
+    margin-top: -549px;
+    text-align: center;
+}
+
+.texp5 p{
+    font-family: rizer;
+    color: white;
+    font-size: 21px;
+    margin-top: 10px;
+    margin-left: -4px;
+}
+.texp5 h1{
+    color: white;
+    font-family: rizer;
+    font-size: 38px;
+    margin-top: 35px;
+    margin-left: -16px;
+}
+.lrnp5{
+    width: 157px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 74px;
+    margin-top: 114px;
+    font-family: rizer;
+    font-weight: 100px;   
+}
+.lrnp5 p:hover{
+    text-decoration: underline white;
+}
+.lrnp5 p,.buyp5 p{
+    font-size: 16px;
+}
+.arp5{
+    width: 128px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 133px;
+    margin-top: 123px;
+    color: #44d62c;
+    font-weight: 300;
+}
+.buyp5{
+    width: 240px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 128px;
+    margin-top: 112px;
+    font-family: rizer;
+}
+.buyp5 p:hover{
+    text-decoration: underline white;
+}
+.arp52{
+    width: 128px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 202px;
+    margin-top: 120px;
+    color: #44D62A;
+    font-weight: 300;
+}
+/* PART 6 */
+.texp6{
+    position: absolute;
+    margin-left: 174px;
+    margin-top: -549px;
+    text-align: center;
+}
+.texp6 p{
+    font-family: rizer;
+    color: white;
+    font-size: 21px;
+    margin-top: 10px;
+    margin-left: -93px;
+}
+.texp6 h1{
+    font-family: rizer;
+    color: white;
+    font-size: 38px;
+    margin-top: 10px;
+    margin-left: -74px;
+}
+.lrnp6{
+    width: 157px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 150px;
+    margin-top: 91px;
+    font-family: rizer;
+    font-weight: 100px;   
+}
+.lrnp6 p:hover{
+    text-decoration: underline white;
+}
+.lrnp6 p{
+    font-size: 16px;
+}
+.arp6{
+    width: 128px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-left: 157px;
+    margin-top: 99px;
+    color: #44d62c;
+    font-weight: 300;
+}
+/* FOOTER */
+
+  .footer{
+    display: flex;
+   height: 50vh;
+   background-color:  #111;
+   border-top: 10px solid #222;
+  }
+  .flex{
+    padding-top: 23px;
+    color: #eee;
+  }
+  .flex p{
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji ;
+    font-size: 12px;
+}
+.foot1,foot2,foot3,foot4,foot5{
+    margin-left: 155px;
+}
+.li{
+    padding-top: 16px;
+    list-style: none;
+    color: #999 ;
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji ;
+    font-size: 12px;
+}
+.li:hover{
+    color: white;
+    cursor: pointer;
+}
+.ulf{
+    margin-top: 10px;
+}
+.lim{
+    padding-top:2px;
+    list-style: none;  
+}
+.lim img{
+    width: 28px;
+    height: 28px;
+}
+
+.foot5{
+    margin-left: 114px
+}
+.foot2{
+    margin-left: 73px;
+}
+.foot3{
+    margin-left: 109px;
+}
+.foot4{
+    margin-left: 53px;
+}
+.game{
+    margin-top: 20px;
+    color:#44d62c;
+    margin-left: 200px;
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji ;
+}
+.game p{
+    font-size: 13px;
+}
+.game sup{
+    font-size: 6px;
+}
+.hr{
+    width: 1177px;
+    height: 5px;
+    margin-top: -58px;
+    margin-left: 154px;
+    position: absolute;
+    background-color: transparent;
+    border-top: 0.25px solid rgba(255, 255, 255, 0.381);
+}
+.copy{
+    position: absolute;
+    width: 327px;
+    height: 20px;
+    margin-top: -41px;
+    margin-left: 158px;
+    background-color: transparent;
+    color: #999;
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji ;
+    font-size: 12px;
+}
+.site{
+    position: absolute;
+    width: 67px;
+    height: 11px;
+    margin-top: -41px;
+    margin-left: 451px;
+    background-color: transparent;
+    color: #999;;
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
+    font-size: 12px;
+    border-right: 1px solid white;
+}
+.site:hover{
+    color: white;
+    cursor: pointer;
+}
+.legal{
+    position: absolute;
+    width: 84px;
+    height: 11px;
+    margin-top: -41px;
+    margin-left: 537px;
+    background-color: transparent;
+    color: #999;
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
+    font-size: 12px;
+    border-right: 1px solid white;
+}
+.legal:hover{
+    color: white;
+    cursor: pointer;
+}
+.pol{
+    position: absolute;
+    width: 91px;
+    height: 11px;
+    margin-top: -41px;
+    margin-left: 639px;
+    background-color: transparent;
+    color: #999;
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
+    font-size: 12px;
+    border-right: 1px solid white;
+}
+.pol:hover{
+    color: white;
+    cursor: pointer;
+}
+.cook{
+    position: absolute;
+    width: 107px;
+    height: 11px;
+    margin-top: -41px;
+    margin-left: 749px;
+    background-color: transparent;
+    color: #999;
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
+    font-size: 12px;
+}
+.cook:hover{
+    color: white;
+    cursor: pointer;
+}
+.uni{
+    position: absolute;
+    width: 81px;
+    height: 11px;
+    margin-top: -41px;
+    margin-left: 1144px;
+    background-color: transparent;
+    color: white;
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
+    font-size: 12px;
+    border-right: 1px solid white;
+}
+.chn{
+    position: absolute;
+    width: 102px;
+    height: 11px;
+    margin-top: -41px;
+    margin-left: 1231px;
+    background-color: transparent;
+    color: #999;
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
+    font-size: 12px;
+}
+.chn:hover{
+    color: white;
+    cursor: pointer;
+}
